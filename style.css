@@ -1,0 +1,50 @@
+main{
+    width: 100vw;
+    height: 100vh;
+    background: #D7E6E9;
+    position: relative;
+}
+.status{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: 'Rubik', sans-serif;
+    color: #0D3C3F;
+    font-size: 40px;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 500px;
+    background: #91BBC4;
+    border: 1px solid #174C57;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board{
+    width: 450px;
+    height: 450px;
+    background: #91BBC4;
+    border: 1px solid #174C57;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cell{
+    background: #9CD8E4;
+    border: 1px solid #174C57;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Architects Daughter', cursive;
+    text-transform: uppercase;
+}
